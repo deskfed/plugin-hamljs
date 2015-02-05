@@ -1,0 +1,23 @@
+{
+  "name": "plugin-hamljs",
+  "version": "0.0.1",
+  "description": "SystemJS plugin for haml-js.",
+  "main": "lib/plugin-hamljs",
+  "scripts": {
+    "test": "open http://localhost:8001/test/test.html && ./node_modules/.bin/serve -p 8001"
+  },
+  "author": "mwalker@desk.com",
+  "license": "MIT",
+  "jspm": {
+    "directories": {
+      "baseURL": "test",
+      "lib": "lib"
+    },
+    "dependencies": {
+      "haml": "github:deskfed/haml-js@0.4.4"
+    }
+  },
+  "devDependencies": {
+    "serve": "^1.4.0"
+  }
+}
